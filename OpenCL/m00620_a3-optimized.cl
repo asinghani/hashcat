@@ -128,7 +128,7 @@ DECLSPEC void m00620m (PRIVATE_AS u32 *w0, PRIVATE_AS u32 *w1, PRIVATE_AS u32 *w
 
     u64x h[8];
 
-    h[0] = BLAKE2B_IV_00 ^ 0x01010040;
+    h[0] = BLAKE2B_IV_00 ^ 0x01010020;
     h[1] = BLAKE2B_IV_01;
     h[2] = BLAKE2B_IV_02;
     h[3] = BLAKE2B_IV_03;
@@ -274,7 +274,7 @@ DECLSPEC void m00620s (PRIVATE_AS u32 *w0, PRIVATE_AS u32 *w1, PRIVATE_AS u32 *w
 
     u64x h[8];
 
-    h[0] = BLAKE2B_IV_00 ^ 0x01010040;
+    h[0] = BLAKE2B_IV_00 ^ 0x01010020;
     h[1] = BLAKE2B_IV_01;
     h[2] = BLAKE2B_IV_02;
     h[3] = BLAKE2B_IV_03;
